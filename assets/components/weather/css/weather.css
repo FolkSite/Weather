@@ -1,0 +1,91 @@
+.weather .holiday {color: red;background-color: #FFFFFF;}
+.weather .workday {color: black;background-color: #FFFFFF;}
+
+.weather.table_detailed small {font-size: 0.9em;}
+.weather.table_detailed big {font-size: 4em;}
+
+.weather.table_short {display: inline-block;}
+.weather.table_short td {width: 100px;padding-left: 10px;}
+.weather.table_short .day {font-size: 1.2em;}
+.weather.table_short .type {font-size: 0.8em;height: 85px;}
+
+.weather .table_basic td:last-child {padding-left: 10px;}
+.weather .table_basic .col2,
+.weather .table_basic .col3 {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAABCAQAAAAs5NW3AAAAJUlEQVQIW2P8X8rwDwj/M/xFIf8DaUwSFcLUIfjINIjEjmHkfwAjNT4LwO2qigAAAABJRU5ErkJggg==');
+	background-repeat: repeat-y;
+}
+
+.weather .wind_0 {width: 11px;height: 11px;transform: rotate(0deg) scale(1.1);}
+.weather .wind_45 {width: 11px;height: 11px;transform: rotate(45deg) scale(1.1);}
+.weather .wind_90 {width: 11px;height: 11px;transform: rotate(90deg) scale(1.1);}
+.weather .wind_135 {width: 11px;height: 11px;transform: rotate(135deg) scale(1.1);}
+.weather .wind_180 {width: 11px;height: 11px;transform: rotate(180deg) scale(1.1);}
+.weather .wind_225 {width: 11px;height: 11px;transform: rotate(225deg) scale(1.1);}
+.weather .wind_270 {width: 11px;height: 11px;transform: rotate(270deg) scale(1.1);}
+.weather .wind_315 {width: 11px;height: 11px;transform: rotate(315deg) scale(1.1);}
+.weather .wind_calm {width: 1px;height: 1px;}
+
+.weather .water {width: 15px;height: 15px;}
+.weather .water_no {display: none;}
+
+.weather .temp-59, .weather .temp-60, .weather .tempcold{background-color:#519fdd}
+.weather .temp-57, .weather .temp-58{background-color:#56a2dd}
+.weather .temp-55, .weather .temp-56{background-color:#5ba5de}
+.weather .temp-54, .weather .temp-55{background-color:#60a7de}
+.weather .temp-51, .weather .temp-52{background-color:#66aadf}
+.weather .temp-49, .weather .temp-50{background-color:#6bade0}
+.weather .temp-47, .weather .temp-48{background-color:#70afe0}
+.weather .temp-45, .weather .temp-46{background-color:#76b2e1}
+.weather .temp-43, .weather .temp-44{background-color:#7bb5e2}
+.weather .temp-41, .weather .temp-42{background-color:#80b7e2}
+.weather .temp-39, .weather .temp-40{background-color:#86bae3}
+.weather .temp-37, .weather .temp-38{background-color:#8bbde3}
+.weather .temp-35, .weather .temp-36{background-color:#90bfe4}
+.weather .temp-33, .weather .temp-34{background-color:#95c2e5}
+.weather .temp-31, .weather .temp-32{background-color:#9bc5e5}
+.weather .temp-27, .weather .temp-28, .weather .temp-29, .weather .temp-30{background-color:#a0c7e6}
+.weather .temp-25, .weather .temp-26{background-color:#abcde7}
+.weather .temp-23, .weather .temp-24{background-color:#b0cfe8}
+.weather .temp-21, .weather .temp-22{background-color:#b5d2e9}
+.weather .temp-19, .weather .temp-20{background-color:#bbd5e9}
+.weather .temp-17, .weather .temp-18{background-color:#c0d7ea}
+.weather .temp-15, .weather .temp-16{background-color:#c5daea}
+.weather .temp-13, .weather .temp-14{background-color:#caddeb}
+.weather .temp-11, .weather .temp-12{background-color:#d0dfec}
+.weather .temp-10, .weather .temp-9{background-color:#d5e2ec}
+.weather .temp-7, .weather .temp-8{background-color:#dae5ed}
+.weather .temp-5, .weather .temp-6{background-color:#e0e7ee}
+.weather .temp-3, .weather .temp-4{background-color:#e5eaee}
+.weather .temp-1, .weather .temp-2{background-color:#eaedef}
+.weather .temp0{background-color:#f0eff0}
+.weather .temp1, .weather .temp2{background-color:#f0f0ec}
+.weather .temp3, .weather .temp4{background-color:#f1f0e9}
+.weather .temp5, .weather .temp6{background-color:#f2f0e6}
+.weather .temp7, .weather .temp8{background-color:#f3f1e3}
+.weather .temp10, .weather .temp9{background-color:#f4f1e0}
+.weather .temp11, .weather .temp12{background-color:#f5f2dc}
+.weather .temp13, .weather .temp14{background-color:#f5f2d9}
+.weather .temp15, .weather .temp16{background-color:#f6f3d6}
+.weather .temp17, .weather .temp18{background-color:#f7f3d3}
+.weather .temp19, .weather .temp20{background-color:#f8f4d0}
+.weather .temp21, .weather .temp22{background-color:#f8f1c8}
+.weather .temp23, .weather .temp24{background-color:#f9eec0}
+.weather .temp25, .weather .temp26{background-color:#f9ebb9}
+.weather .temp27, .weather .temp28{background-color:#f9e8b1}
+.weather .temp29, .weather .temp30{background-color:#fae5aa}
+.weather .temp31, .weather .temp32{background-color:#fae3a3}
+.weather .temp33, .weather .temp34{background-color:#fae09c}
+.weather .temp35, .weather .temp36{background-color:#fbde96}
+.weather .temp37, .weather .temp38{background-color:#fbdb8f}
+.weather .temp39, .weather .temp40{background-color:#fbd988}
+.weather .temp41, .weather .temp42{background-color:#fcd682}
+.weather .temp43, .weather .temp44{background-color:#fcd47b}
+.weather .temp45, .weather .temp46{background-color:#fcd174}
+.weather .temp47, .weather .temp48{background-color:#fdcf6e}
+.weather .temp49, .weather .temp50{background-color:#fdcc67}
+.weather .temp51, .weather .temp52{background-color:#fdca60}
+.weather .temp53, .weather .temp54{background-color:#fec759}
+.weather .temp55, .weather .temp56{background-color:#fec553}
+.weather .temp57, .weather .temp58{background-color:#fec24c}
+.weather .temp59, .weather .temp60, .weather .temphot{background-color:#ffc045}
